@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/fullbacgraund">
+
+    <TextView
+        android:id="@+id/marqueeText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#63120202"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/all_top_notis2"
+        android:textColor="#F9F9FA"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@drawable/exam"
+        android:contentDescription="@string/content_Description" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            >
+
+            <Button
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one1"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="@string/exam_one2"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/e3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary100"
+                android:text="@string/exam_one3"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one4"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:text="@string/exam_one5"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/d6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="?attr/colorPrimaryInverse"
+                android:text="@string/exam_one6"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:text="@string/exam_one7"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/exam_one8"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="@string/exam_one9"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="@string/exam_one10"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="@string/exam_one11"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d12"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one12"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d13"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_primary99"
+                android:text="@string/exam_one13"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d14"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one14"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d15"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one15"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d16"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="@string/exam_one16"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d17"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one17"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d18"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one18"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d19"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one19"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d20"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one20"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one21"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d22"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="@string/exam_one22"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d23"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary100"
+                android:text="@string/exam_one23"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d24"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one24"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d25"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:text="@string/exam_one25"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/d26"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="?attr/colorPrimaryInverse"
+                android:text="@string/exam_one26"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d27"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_tertiary30"
+                android:text="@string/exam_one27"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d28"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/exam_one28"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d29"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="@string/exam_one29"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d30"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="@string/exam_one30"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/d31"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="@string/exam_one31"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d32"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one32"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d33"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/material_dynamic_primary99"
+                android:text="@string/exam_one33"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d34"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one34"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d35"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/exam_one35"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d36"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="@string/exam_one36"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/d37"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one37"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d38"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one38"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d39"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one39"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/d40"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one40"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/d41"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one41"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/d42"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/exam_one42"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
